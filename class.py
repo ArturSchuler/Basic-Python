@@ -1,4 +1,4 @@
-class Test:
+class Test2:
     def __init__(self, a, b):
         self.a = a
         self.b = b
@@ -11,6 +11,6 @@ class Test:
               "b is %s" % (self.a, self.b)
   
 # Driver Code        
-t = Test(1234, 5678)
+t = Test2(1234, 5678)
 print(t) # This calls __str__()
 print([t]) # This calls __repr__()
